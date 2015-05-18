@@ -254,6 +254,12 @@ Commit and push the resulting build, located in your dist folder:
 
 Deploying to heroku only takes a few steps.
 
+Login to heroku  if not logged in.
+
+    heroku auth:login
+    
+Run
+
     yo angular-fullstack:heroku
 
 To work with your new heroku app using the command line, you will need to run any `heroku` commands from the `dist` folder.
